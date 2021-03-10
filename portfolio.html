@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
   <title>Portfolio</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -12,14 +14,14 @@
 <body>
   <header>
     <nav>
-      <a href="./index.html">WebStudio</a>
-      <ul>
-        <li><a href="./index.html">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+      <a class="logo" href="./index.html">WebStudio</a>
+      <ul class="site-nav list">
+        <li><a class="link" href="./index.html">Студия</a></li>
+        <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="link" href="">Контакты</a></li>
       </ul>
     </nav>
-    <ul>
+    <ul class="auth-nav list">
       <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
@@ -30,19 +32,17 @@
     <!-- фильтр -->
     <section>
       <h2>Фильтр</h2>
-      <ul>
-        <li><a href="">Все</a></li>
-        <li><a href="">Веб-сайты</a></li>
-        <li><a href="">Приложения</a></li>
-        <li><a href="">Дизайн</a></li>
-        <li><a href="">Маркетинг</a></li>
-      </ul>
+      <button type="button">Все</button>
+      <button type="button">Веб-сайты</button>
+      <button type="button">Приложения</button>
+      <button type="button">Дизайн</button>
+      <button type="button">Маркетинг</button>
     </section>
 
     <!-- галерея проектов -->
     <section>
       <h2>Галерея проектов</h2>
-      <ul>
+      <ul class="list">
         <li>
           <img src="./images/img2-1.jpg" alt="Веб-сайт" width="370">
           <h3>Технокряк</h3>
@@ -70,7 +70,7 @@
         </li>
         <li>
           <img src="./images/img2-6.jpg" alt="Веб-сайт" width="370">
-          <h3>Inspiration has no Borders</h3>
+          <h3 lang="en">Inspiration has no Borders</h3>
           <p>Веб-сайт</p>
         </li>
         <li>
@@ -85,7 +85,7 @@
         </li>
         <li>
           <img src="./images/img2-9.jpg" alt="Приложение" width="370">
-          <h3>Growing Business</h3>
+          <h3 lang="en">Growing Business</h3>
           <p>Приложение</p>
         </li>
       </ul>
@@ -96,7 +96,7 @@
   <footer>
     <a href="/">WebStudio</a>
     <address>г. Киев, пр-т Леси Украинки, 26
-      <ul>
+      <ul class="list">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
