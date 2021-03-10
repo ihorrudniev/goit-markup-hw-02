@@ -1,0 +1,46 @@
+/* main background color #ffffff */
+/* secondary background color #F5F4FA  */
+/* color accent #2196F3 */
+/* main text color #757575 */
+/* color title #212121 */
+
+:root {
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --color-accent: #2196f3;
+  --main-text-color: #757575;
+  --color-title: #212121;
+}
+
+body {
+  font-family: Roboto;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  /* color: #2196f3; */
+  color: #000000;
+}
+
+/* site-nav */
+.auth-nav .link,
+.site-nav .link {
+  text-decoration: none;
+  color: var(--color-title);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-accent);
+}
