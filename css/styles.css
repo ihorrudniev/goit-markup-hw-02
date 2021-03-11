@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Roboto;
+  font-family: Roboto; sans-serif;
   background-color: var(--main-background-color);
   color: var(--main-text-color);
 }
@@ -23,19 +23,35 @@ body {
 }
 
 .logo {
+  text-decoration: none;
+  font-family: Raleway;
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
   letter-spacing: 0.03em;
   /* color: #2196f3; */
   color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-style {
+  color: var(--color-accent);
 }
 
 /* site-nav */
-.auth-nav .link,
+
 .site-nav .link {
   text-decoration: none;
   color: var(--color-title);
+}
+
+.site-nav .link.current {
+  color: var(--color-accent)
+}
+
+.auth-nav .link {
+  text-decoration: none;
+  color: var(--main-text-color);
 }
 
 .auth-nav .link:hover,
@@ -43,4 +59,16 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--color-accent);
+}
+
+.section-title,
+.list-item {
+color: var(--color-title);
+}
+
+
+.contacts {
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
 }
