@@ -1,10 +1,11 @@
 :root {
-  --main-background-color: #ffffff;
+  --main-color: #ffffff;
   --conteiner-bg-color: #2f303a;
   --secondary-background-color: #f5f4fa;
   --accent-color: #2196f3;
   --main-text-color: #757575;
   --title-color: #212121;
+  --logo-color: #000000;
 }
 
 body {
@@ -16,9 +17,9 @@ body {
   line-height: 1.71;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
-  background-color: var(--main-background-color);
+  background-color: var(--main-color);
 }
-
+/* скрытие текста */
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -43,10 +44,11 @@ body {
 .logo {
   text-decoration: none;
   font-family: Raleway;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-color);
 }
 
 .logo-header {
@@ -92,7 +94,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-color);
 }
 
 .conteiner {
@@ -106,8 +108,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .button:hover {
@@ -135,6 +138,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-transform: none;
 }
 
 .container-tiam {
@@ -147,12 +151,12 @@ body {
 }
 
 .logo-footer {
-  color: var(--main-background-color);
+  color: var(--main-color);
 }
 
 .contacts {
   font-style: normal;
-  color: var(--main-background-color);
+  color: var(--main-color);
 }
 
 .contacts .link {
