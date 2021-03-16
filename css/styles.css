@@ -103,6 +103,7 @@ body {
 }
 
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -175,6 +176,7 @@ body {
 /*------------ portfolio page------------- */
 
 .button-portfolio {
+font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -192,9 +194,6 @@ body {
 .button-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--main-color);
-}
-
-.button-portfolio {
 }
 
 .link .title-card {
